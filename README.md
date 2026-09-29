@@ -1,47 +1,187 @@
 <p align="center">
-  <img src="assets/InvurseChatIcon.svg" alt="InvurseChat icon" width="128" height="128">
+  <img src="assets/InvurseChatIcon.svg" alt="InvurseChat icon" width="140" height="140">
 </p>
 
 <h1 align="center">InvurseChat</h1>
 
 <p align="center">
   <strong>Private AI that runs on your Mac.</strong><br>
-  Chat from your Mac or your Windows PC, with the model and your chats staying at home.
+  Open models like Gemma and Qwen, running on your own hardware.<br>
+  Chat from your Mac or your Windows PC. Your conversations never leave home.
+</p>
+
+<p align="center">
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/InuvrseStudio/InvurseChat-Releases?label=latest&color=5B4FD6&style=flat-square" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/macOS-14%2B-17171C?logo=apple&logoColor=white&style=flat-square" alt="macOS 14 or later">
+  <img src="https://img.shields.io/badge/Apple%20Silicon-M1%20or%20later-17171C?logo=apple&logoColor=white&style=flat-square" alt="Apple Silicon">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-17171C?logo=windows&logoColor=white&style=flat-square" alt="Windows 10 or 11">
+  <img src="https://img.shields.io/badge/made%20in-Canada%20%F0%9F%8D%81-C9C1FF?style=flat-square" alt="Made in Canada">
+</p>
+
+<p align="center">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Mac-5B4FD6?logo=apple&logoColor=white&style=for-the-badge" alt="Download for Mac"></a>
+  &nbsp;
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-17171C?logo=windows&logoColor=white&style=for-the-badge" alt="Download for Windows"></a>
+</p>
+
+<!-- SCREENSHOT: replace with a 0.6.0 screenshot (new icon, model picker, lavender accent) before launch. -->
+<p align="center">
+  <img src="assets/screenshot-mac.png" alt="InvurseChat on macOS: a conversation with a model running on the Mac" width="820">
 </p>
 
 ---
 
+## Why InvurseChat
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔒 Private by design
+The model runs on your Mac and your chats are saved there. No account, no
+cloud, no analytics. Nothing to sign up for.
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Fast on Apple Silicon
+Built on MLX, with llama.cpp for GGUF models. First-run setup picks a model
+that fits your Mac's memory.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🔎 Any model you like
+Search Hugging Face from the app and see at a glance whether a model fits.
+Or add the models you already have, including an LM Studio library.
+
+</td>
+<td valign="top">
+
+### 📎 Works with your files
+Drop in PDFs, Word documents, spreadsheets, text and images, and ask about
+them. It can search the web when a question needs current information.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### ✅ You stay in control
+Deleting or moving files, running commands and exporting documents all wait
+for your approval. You see each step as it works.
+
+</td>
+<td valign="top">
+
+### 💻 Your Mac, from your PC
+Pair a Windows PC with a one-time code and chat with your Mac's model from
+there. Other apps can use it too, through an OpenAI-compatible API.
+
+</td>
+</tr>
+</table>
+
 ## Download
 
-Get the latest version from the [Releases page](../../releases/latest).
+Grab the latest version from the **[Releases page](../../releases/latest)**.
 
-| Platform | File | Requirements |
+| | Mac | Windows |
 | --- | --- | --- |
-| **macOS** | `InvurseChat-<version>-arm64.dmg` | Apple Silicon (M1 or later), macOS 14 or later |
-| **Windows** | `InvurseChat-Setup-<version>-x64.exe` | Windows 10 or 11 (x64), and InvurseChat running on a Mac on the same network |
+| **File** | `InvurseChat-<version>-arm64.dmg` | `InvurseChat-Setup-<version>-x64.exe` |
+| **Role** | Runs the model and keeps your chats | Chat client for your Mac |
+| **Needs** | Apple Silicon (M1 or later), macOS 14 or later | Windows 10 or 11 (x64), and InvurseChat on a Mac on the same network |
 
-The Mac app runs the model. The Windows app is a chat client that connects to
-your Mac.
+### How much memory do I need?
 
-### Installing
+| Model | Minimum | Recommended | Download |
+| --- | --- | --- | --- |
+| Gemma 4 E2B | 8 GB | 12 GB | ~2 GB |
+| Gemma 4 E4B | 12 GB | 16 GB | ~4.5 GB |
+| Gemma 4 26B | 24 GB | 32 GB | ~28 GB |
 
-**Mac:** open the DMG and drag InvurseChat to Applications. The first time you
-open it, it recommends a model for your Mac and downloads it.
+Not sure? The app looks at your Mac and recommends one the first time you
+open it.
 
-**Windows:** run the installer. [WINDOWS SIGNING NOTE: until the installer is
-signed, Windows SmartScreen may show "Windows protected your PC". Choose
-**More info**, then **Run anyway**.] Then, on your Mac, open InvurseChat's
-Settings, turn on **Allow network access**, choose **Pair a Device…**, and
-enter the code in the Windows app.
+## Getting started
+
+<details open>
+<summary><strong>On your Mac</strong></summary>
+
+1. Open the DMG and drag **InvurseChat** to **Applications**.
+2. Open InvurseChat. Setup recommends a model for your Mac and downloads it.
+3. Start chatting. Attach files with **+** or by dragging them in.
+
+</details>
+
+<details>
+<summary><strong>On your Windows PC</strong></summary>
+
+1. Run `InvurseChat-Setup-<version>-x64.exe`.
+   [WINDOWS SIGNING NOTE: until the installer is signed, Windows SmartScreen
+   may say "Windows protected your PC". Choose **More info**, then
+   **Run anyway**.]
+2. On your Mac, open InvurseChat **Settings**, turn on **Allow network
+   access**, and choose **Pair a Device…**.
+3. Enter the code shown on your Mac in the Windows app.
+
+</details>
 
 ## Updates
 
-[UPDATES: describe how the apps update once auto-update ships.]
+The Mac app checks for new versions and installs them for you (you can turn
+this off in Settings, or choose **InvurseChat › Check for Updates…** at any
+time). Every update is signed, and checked before it's installed.
+[WINDOWS UPDATES: until the Windows app updates itself, download the new
+installer from the Releases page.]
+
+## FAQ
+
+<details>
+<summary><strong>Does it work offline?</strong></summary>
+
+Yes. Once a model is downloaded, chatting works with no internet connection.
+Only web searches, weather, model downloads and update checks need to go
+online.
+
+</details>
+
+<details>
+<summary><strong>Does it work on an Intel Mac?</strong></summary>
+
+No. Running models locally needs Apple Silicon (M1 or later).
+
+</details>
+
+<details>
+<summary><strong>Can I use it away from home on my PC?</strong></summary>
+
+The Windows app connects to your Mac over your local network, so both need to
+be on the same network, and your Mac needs to be on.
+
+</details>
+
+<details>
+<summary><strong>Can I use my own models?</strong></summary>
+
+Yes. Search Hugging Face for any MLX or GGUF model from the app, or add a
+folder of models you already have.
+
+</details>
+
+<details>
+<summary><strong>What about iPhone and iPad?</strong></summary>
+
+Companion apps are on the way in a future update.
+
+</details>
 
 ## Privacy
 
-InvurseChat collects nothing: no accounts, analytics or tracking. See the
-[privacy policy](PRIVACY.md) [TO ADD BEFORE LAUNCH].
+InvurseChat collects nothing: no accounts, analytics or tracking. Read the
+full [privacy policy](PRIVACY.md) [TO ADD BEFORE LAUNCH].
 
 ## Feedback
 
@@ -49,4 +189,7 @@ InvurseChat collects nothing: no accounts, analytics or tracking. See the
 
 ---
 
-<p align="center">Developed in Canada 🍁 by Invurse Studio</p>
+<p align="center">
+  <img src="assets/InvurseChatIcon.svg" alt="" width="28" height="28"><br>
+  Developed in Canada 🍁 by <strong>Invurse Studio</strong>
+</p>
