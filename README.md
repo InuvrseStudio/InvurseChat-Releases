@@ -178,6 +178,20 @@ Companion apps are on the way in a future update.
 
 </details>
 
+## About
+
+InvurseChat is my first major app. I started it to learn how local AI really
+works: running models on a Mac, streaming replies, tools, and connecting other
+devices. Along the way it grew into the app I wanted to use every day.
+
+It's made by one person at Invurse Studio in Canada, and it's still early. It's
+also signed and notarized by Apple, updates itself safely, and never collects
+your data. If something's rough or you have an idea,
+[let me know](FEEDBACK_LINK). Feedback is how it gets better.
+
+I used Claude, Anthropic's AI, along the way to find bugs, review code, and
+implement fixes and polish.
+
 ## Privacy
 
 InvurseChat collects nothing: no accounts, analytics or tracking. Read the
