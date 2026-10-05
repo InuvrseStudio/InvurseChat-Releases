@@ -24,7 +24,6 @@
   <a href="../../releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-17171C?logo=windows&logoColor=white&style=for-the-badge" alt="Download for Windows"></a>
 </p>
 
-<!-- SCREENSHOT: replace with a 0.6.0 screenshot (new icon, model picker, lavender accent) before launch. -->
 <p align="center">
   <img src="assets/screenshot-mac.png" alt="InvurseChat on macOS: a conversation with a model running on the Mac" width="820">
 </p>
@@ -90,7 +89,7 @@ Grab the latest version from the **[Releases page](../../releases/latest)**.
 
 | | Mac | Windows |
 | --- | --- | --- |
-| **File** | `InvurseChat-<version>-arm64.dmg` | `InvurseChat-Setup-<version>-x64.exe` |
+| **File** | `InvurseChat-<version>-arm64.dmg` | `InvurseChat-Setup-<version>-x64.exe` (installer), or `InvurseChat-Portable-<version>-x64.exe` to run without installing |
 | **Role** | Runs the model and keeps your chats | Chat client for your Mac |
 | **Needs** | Apple Silicon (M1 or later), macOS 14 or later | Windows 10 or 11 (x64), and InvurseChat on a Mac on the same network |
 
