@@ -14,7 +14,7 @@ usage information, and has no servers that could.
 ## Where your data lives
 
 - **Chats and settings** are saved as files on your Mac. If you use the
-  Windows, iPhone or iPad apps, those chats are also saved on that device.
+  Windows app, those chats are also saved on that PC.
 - **Files you attach** are read on your Mac. Documents are indexed on your
   Mac so you can ask about them later.
 - **The model** runs on your Mac. Your messages are not sent to any AI
