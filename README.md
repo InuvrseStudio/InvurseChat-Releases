@@ -120,9 +120,8 @@ open it.
 <summary><strong>On your Windows PC</strong></summary>
 
 1. Run `InvurseChat-Setup-<version>-x64.exe`.
-   [WINDOWS SIGNING NOTE: until the installer is signed, Windows SmartScreen
-   may say "Windows protected your PC". Choose **More info**, then
-   **Run anyway**.]
+   The installer isn't code-signed yet, so Windows SmartScreen may say
+   "Windows protected your PC". Choose **More info**, then **Run anyway**.
 2. On your Mac, open InvurseChat **Settings**, turn on **Allow network
    access**, and choose **Pair a Device…**.
 3. Enter the code shown on your Mac in the Windows app.
@@ -134,8 +133,8 @@ open it.
 The Mac app checks for new versions and installs them for you (you can turn
 this off in Settings, or choose **InvurseChat › Check for Updates…** at any
 time). Every update is signed, and checked before it's installed.
-[WINDOWS UPDATES: until the Windows app updates itself, download the new
-installer from the Releases page.]
+The Windows app doesn't update itself yet: download the new installer from
+the [Releases page](../../releases/latest).
 
 ## FAQ
 
@@ -187,7 +186,7 @@ devices. Along the way it grew into the app I wanted to use every day.
 It's made by one person at Invurse Studio in Canada, and it's still early. It's
 also signed and notarized by Apple, updates itself safely, and never collects
 your data. If something's rough or you have an idea,
-[let me know](FEEDBACK_LINK). Feedback is how it gets better.
+[let me know](#feedback). Feedback is how it gets better.
 
 I used Claude, Anthropic's AI, along the way to find bugs, review code, and
 implement fixes and polish.
@@ -195,11 +194,13 @@ implement fixes and polish.
 ## Privacy
 
 InvurseChat collects nothing: no accounts, analytics or tracking. Read the
-full [privacy policy](PRIVACY.md) [TO ADD BEFORE LAUNCH].
+full [privacy policy](PRIVACY.md).
 
 ## Feedback
 
-[FEEDBACK: where to send bug reports and ideas.]
+Found a bug or have an idea? [Open an issue](../../issues/new) on GitHub, or
+email [hello@invursestudio.com](mailto:hello@invursestudio.com) if you don't
+have a GitHub account.
 
 ---
 
