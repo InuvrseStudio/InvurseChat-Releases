@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/InuvrseStudio/InvurseChat-Releases?label=latest&color=5B4FD6&style=flat-square" alt="Latest release"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/InvurseStudio/InvurseChat-Releases?label=latest&color=5B4FD6&style=flat-square" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-17171C?logo=apple&logoColor=white&style=flat-square" alt="macOS 14 or later">
   <img src="https://img.shields.io/badge/Apple%20Silicon-M1%20or%20later-17171C?logo=apple&logoColor=white&style=flat-square" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-17171C?logo=windows&logoColor=white&style=flat-square" alt="Windows 10 or 11">
